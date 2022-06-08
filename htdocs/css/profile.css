@@ -1,0 +1,23 @@
+@import "/css/style.css";
+
+.text {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 2px solid black;
+	padding: 30px 50px;
+	color: white;
+	font-size: 20px;
+}
+
+.wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #0091FE;
+	opacity: 0.7;
+	z-index: -1;
+}

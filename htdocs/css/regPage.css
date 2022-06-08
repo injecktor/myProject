@@ -1,0 +1,8 @@
+@import "/css/style.css";
+
+.wrapper button {
+	width: 80%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
